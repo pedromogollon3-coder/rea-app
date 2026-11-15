@@ -4,3 +4,4 @@ rea-app-out/
 .DS_Store
 coverage/
 .vitest/
+.claude/settings.local.json
