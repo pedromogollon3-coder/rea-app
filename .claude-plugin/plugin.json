@@ -1,0 +1,14 @@
+{
+  "name": "rea-app",
+  "displayName": "REA APP",
+  "version": "0.1.0",
+  "description": "Ingeniería inversa de aplicaciones web con evidencia: sesión viva, flujos grabados, rutas, API, tiempo real, estado, WebAssembly e informe en español.",
+  "author": {
+    "name": "pedromogollon3-coder",
+    "url": "https://github.com/pedromogollon3-coder"
+  },
+  "homepage": "https://github.com/pedromogollon3-coder/rea-app",
+  "repository": "https://github.com/pedromogollon3-coder/rea-app",
+  "license": "MIT",
+  "keywords": ["reverse-engineering", "web-app", "spa", "websocket", "playwright", "mcp"]
+}

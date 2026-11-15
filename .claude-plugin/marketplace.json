@@ -1,0 +1,15 @@
+{
+  "name": "rea-app",
+  "description": "REA APP: ingeniería inversa de aplicaciones web para Claude Code",
+  "owner": {
+    "name": "pedromogollon3-coder",
+    "url": "https://github.com/pedromogollon3-coder"
+  },
+  "plugins": [
+    {
+      "name": "rea-app",
+      "source": "./",
+      "description": "Analiza una aplicación web y explica cómo funciona con evidencia: /rea-app https://app.ejemplo.com"
+    }
+  ]
+}

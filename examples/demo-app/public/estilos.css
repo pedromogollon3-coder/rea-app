@@ -1,0 +1,29 @@
+:root { --fondo: #10161d; --panel: #18212b; --borde: #2a3643; --texto: #e6edf3; --tenue: #8b98a5; --acento: #2bb3a3; --sube: #3fb950; --baja: #f85149; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.5 system-ui, sans-serif; color: var(--texto); background: var(--fondo); }
+.barra { display: flex; align-items: center; gap: 22px; padding: 12px 24px; background: var(--panel); border-bottom: 1px solid var(--borde); }
+.marca { color: var(--acento); letter-spacing: 0.3px; }
+nav { display: flex; gap: 16px; margin-right: auto; }
+nav a { color: var(--tenue); text-decoration: none; padding: 4px 2px; border-bottom: 2px solid transparent; }
+nav a.activa { color: var(--texto); border-color: var(--acento); }
+#usuario-activo { color: var(--tenue); margin-left: auto; }
+button { font: inherit; padding: 7px 14px; border: 1px solid var(--acento); border-radius: 6px; background: var(--acento); color: #06211e; cursor: pointer; font-weight: 600; }
+button.secundario { background: transparent; color: var(--acento); }
+main { max-width: 1040px; margin: 0 auto; padding: 24px; }
+h1 { font-size: 22px; margin: 0 0 16px; }
+.tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 18px 20px; margin-bottom: 16px; }
+.rejilla { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.dato { font-size: 24px; font-weight: 700; }
+.etiqueta { color: var(--tenue); font-size: 13px; }
+form { display: grid; gap: 10px; max-width: 340px; }
+input, select { font: inherit; padding: 8px 10px; border-radius: 6px; border: 1px solid var(--borde); background: #0c1117; color: var(--texto); }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--borde); }
+th { color: var(--tenue); font-weight: 500; font-size: 13px; }
+tr.fila-simbolo { cursor: pointer; }
+tr.fila-simbolo:hover { background: #1f2a36; }
+.sube { color: var(--sube); } .baja { color: var(--baja); }
+canvas { width: 100%; height: 280px; display: block; background: #0c1117; border-radius: 8px; }
+.pestanas { display: flex; gap: 8px; margin-bottom: 12px; }
+.error { color: var(--baja); min-height: 1.4em; }
+footer { text-align: center; color: var(--tenue); font-size: 13px; padding: 18px; }

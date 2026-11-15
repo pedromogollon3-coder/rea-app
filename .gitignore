@@ -1,0 +1,6 @@
+node_modules/
+rea-app-out/
+*.log
+.DS_Store
+coverage/
+.vitest/

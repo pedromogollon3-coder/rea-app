@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Faro Mercados — aplicación de ejemplo</title>
+    <link rel="stylesheet" href="/estilos.css" />
+  </head>
+  <body>
+    <header class="barra">
+      <strong class="marca">Faro Mercados</strong>
+      <nav id="menu" aria-label="Principal" hidden>
+        <a href="/panel" data-ruta>Panel</a>
+        <a href="/mercado/SOL" data-ruta>Mercado</a>
+        <a href="/ordenes" data-ruta>Órdenes</a>
+      </nav>
+      <span id="usuario-activo"></span>
+      <button id="salir" type="button" hidden>Salir</button>
+    </header>
+    <main id="vista" aria-live="polite"></main>
+    <footer><p>Aplicación ficticia para probar REA APP. Ningún dato es real. <span id="avisos" role="status"></span></p></footer>
+    <script type="module" src="/assets/main.js"></script>
+  </body>
+</html>
